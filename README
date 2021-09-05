@@ -1,0 +1,13 @@
+tex_workspace
+=============
+  These scripts were made for setting
+up MiKTeX environment in docker/podman
+container. They don't differ a lot form
+default instructions on MiKTeX website
+
+requirements:
+  - podman (or docker)
+
+
+Tested only on CentOS 8 Stream (CentOS Linux release 8.4.2105)
+with podman (podman version 3.2.3)
