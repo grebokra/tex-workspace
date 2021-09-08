@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker pull miktex/miktex && docker volume create miktex
+docker build . -t texw:latest && docker volume create miktex
