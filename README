@@ -8,6 +8,8 @@ default instructions on MiKTeX website
 requirements:
   - podman (or docker)
 
+NOTE:   If you are using docker do `git apply docker.patch`
+      before using `run.sh`
 
 Tested only on CentOS 8 Stream (CentOS Linux release 8.4.2105)
 with podman (podman version 3.2.3)

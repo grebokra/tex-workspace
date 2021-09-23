@@ -1,0 +1,11 @@
+diff --git a/run.sh b/run.sh
+index 278d4fb..0fc5f51 100755
+--- a/run.sh
++++ b/run.sh
+@@ -13,5 +13,5 @@ fi
+ docker run -ti \
+   -v miktex:/miktex/.miktex \
+   -v `pwd`:/miktex/work \
+-  localhost/texw:latest \
++  texw:latest \
+   xelatex $1
