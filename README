@@ -9,7 +9,9 @@ requirements:
   - podman (or docker)
 
 NOTE:   If you are using docker do `git apply docker.patch`
-      before using `run.sh`
+      before using `run.sh`. Also make sure your user is in
+      the 'docker' group.
 
-Tested only on CentOS 8 Stream (CentOS Linux release 8.4.2105)
-with podman (podman version 3.2.3)
+Tested on:
+  - CentOS 8 Stream (release 8.4.2105) with podman (version 3.2.3)
+  - openSUSE Tumbleweed (20210921) with docker (version 20.10.6-ce)
