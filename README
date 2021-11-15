@@ -8,8 +8,13 @@ default instructions on MiKTeX website
 requirements:
   - podman (or docker)
 
+HOW TO USE:
+    run `prepare.sh` once
+    use `run.sh <file>` to build .tex files
+    (you can copy or symlink this script anywhere you want)
+
 NOTE:   If you are using docker do `git apply docker.patch`
-      before using `run.sh`. Also make sure your user is in
+      before using `run.sh`. Also, make sure your user is in
       the 'docker' group.
 
 Tested on:
